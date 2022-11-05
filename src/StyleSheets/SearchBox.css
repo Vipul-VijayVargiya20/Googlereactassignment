@@ -1,0 +1,45 @@
+.search__input {
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+  height: 30px;
+  padding: 10px 20px;
+  border-radius: 999px;
+  width: 75vw;
+  margin: 0 auto;
+  margin-top: 40px;
+  max-width: 560px;
+}
+
+.search__input input {
+  flex: 1;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+}
+
+.search__input .material-icons {
+  color: gray;
+}
+
+.ConditionalPara {
+  text-align: center;
+  font-weight: 600;
+  overflow-wrap: break-word;
+  width: 33%;
+}
+
+.search__buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.search__buttons button {
+  margin: 5px;
+  padding: 10px 15px;
+  background-color: #eeeded;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,8 @@
+.mainBody {
+  flex: 1;
+  display: flex;
+  margin-top: 10%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
